@@ -1,0 +1,56 @@
+comp:
+  compName: hg-line-not
+  discipline: hg
+  location: _
+  from: '2018-07-13'
+  to: '2018-07-13'
+  civilId: '0'
+  utcOffset:
+    timeZoneMinutes: 0
+  scoreBack: 900.0 s
+nominal:
+  launch: 0.96
+  goal: 0.25
+  distance: 70.0 km
+  free: 7.0 km
+  time: 1.5 h
+tasks:
+- taskName: EssIsGoal
+  zones:
+    raw:
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog: []
+      race:
+      - cylinder:
+          center:
+          - -32.9378 deg
+          - 147.7097 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        circle:
+          center:
+          - -33.3562 deg
+          - 147.9336 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 1
+  - 2
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+taskFolders:
+- - ''
+pilots: []

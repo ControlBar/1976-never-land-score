@@ -1,0 +1,82 @@
+taskRoute:
+- sphericalPointToPoint:
+    distance: 50.980329
+    legs:
+    - 50.980329
+    legsSum:
+    - 50.980329
+    waypoints:
+    - lat: -32.9378
+      lng: 147.7097
+    - lat: -33.3562
+      lng: 147.9336
+  ellipsoidPointToPoint:
+    distance: 50.980329
+    legs:
+    - 50.980329
+    legsSum:
+    - 50.980329
+    waypoints:
+    - lat: -32.9378
+      lng: 147.7097
+    - lat: -33.3562
+      lng: 147.9336
+  sphericalEdgeToEdge:
+    distance: 50.980329
+    legs:
+    - 50.980329
+    legsSum:
+    - 50.980329
+    waypoints:
+    - lat: -32.9378
+      lng: 147.7097
+    - lat: -33.3562
+      lng: 147.9336
+  ellipsoidEdgeToEdge:
+    distance: 50.888599
+    legs:
+    - 50.888599
+    legsSum:
+    - 50.888599
+    waypoints:
+    - lat: -32.9378
+      lng: 147.7097
+    - lat: -33.3562
+      lng: 147.9336
+  projection:
+    spherical:
+      distance: 50.980329
+      legs:
+      - 50.980329
+      legsSum:
+      - 50.980329
+      waypoints:
+      - lat: -32.9378
+        lng: 147.7097
+      - lat: -33.3562
+        lng: 147.9336
+    ellipsoid:
+      distance: 50.980329
+      legs:
+      - 50.980329
+      legsSum:
+      - 50.980329
+      waypoints:
+      - lat: -32.9378
+        lng: 147.7097
+      - lat: -33.3562
+        lng: 147.9336
+    planar:
+      distance: 50.980329
+      legs:
+      - 50.871948
+      legsSum:
+      - 50.871948
+      mappedPoints:
+      - easting: 566344.396
+        northing: 6355385.1
+      - easting: 586862.427
+        northing: 6308834.424
+      mappedZones:
+      - latZone: H
+        lngZone: 55
