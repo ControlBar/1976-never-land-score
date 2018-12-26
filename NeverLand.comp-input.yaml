@@ -1,0 +1,537 @@
+comp:
+  compName: Never Land 1976
+  discipline: hg
+  location: Kössen Austria
+  from: 1976-09-01
+  to: 1976-09-12
+  civilId: '0'
+  utcOffset:
+    timeZoneMinutes: 0
+  scoreBack: 900.000 s
+nominal:
+  launch: 0.96
+  goal: 0.25
+  distance: 70.0 km
+  free: 7.0 km
+  time: 1.500000 h
+tasks:
+- taskName: Circle ESS is Goal
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        circle:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Line ESS is not Goal
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      epilog: []
+      goal:
+        line:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Line ESS is Goal
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        line:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Line ESS with Epilogue
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      goal:
+        line:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Circle ESS is not Goal
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      epilog: []
+      goal:
+        circle:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Circle ESS is Goal
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        circle:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Circle ESS with Epilogue
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      goal:
+        circle:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Open Distance on Heading
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind: null
+    openKind:
+      prolog: []
+      open-mandatory:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      open-free:
+        vector:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          target:
+          - 90.00000000 deg
+          - 0.00000000 deg
+          radius: 400.0 m
+  speedSection: null
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates: []
+  absent: []
+  stopped: null
+- taskName: Open Distance
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+    raceKind: null
+    openKind:
+      prolog: []
+      open-mandatory:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      open-free:
+        star:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+  speedSection: null
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates: []
+  absent: []
+  stopped: null
+taskFolders:
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+pilots: []
