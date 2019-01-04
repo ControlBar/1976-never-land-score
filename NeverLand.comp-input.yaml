@@ -210,7 +210,7 @@ tasks:
   - 2018-07-13T12:00:00Z
   absent: []
   stopped: null
-- taskName: Line ESS with Epilogue
+- taskName: Line ESS with Epilogue (Race 1 Gate)
   zones:
     raw:
     - zoneName: BMI023
@@ -283,6 +283,156 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: Line ESS with Epilogue (Race 2 Gates)
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      goal:
+        line:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  - 2018-07-13T12:20:00Z
+  absent: []
+  stopped: null
+- taskName: Line ESS with Epilogue (Elapsed)
+  zones:
+    raw:
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
+    - zoneName: TRUND
+      lat: -32.9378
+      lng: 147.7097
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
+    - zoneName: BOGAN
+      lat: -33.12592
+      lng: 147.91043
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
+    - zoneName: BMI023
+      lat: -33.3562
+      lng: 147.9336
+      radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.93780000 deg
+          - 147.70970000 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.12592000 deg
+          - 147.91043000 deg
+          radius: 400.0 m
+      goal:
+        line:
+          center:
+          - -33.35620000 deg
+          - 147.93360000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates: []
   absent: []
   stopped: null
 - taskName: Circle ESS is not Goal
@@ -608,6 +758,8 @@ tasks:
   absent: []
   stopped: null
 taskFolders:
+- - ''
+- - ''
 - - ''
 - - ''
 - - ''
