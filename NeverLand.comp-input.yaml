@@ -1,6 +1,7 @@
 comp:
   compName: Never Land 1976
   discipline: hg
+  earthMath: Haversines
   location: Kössen Austria
   from: 1976-09-01
   to: 1976-09-12
@@ -8,6 +9,12 @@ comp:
   utcOffset:
     timeZoneMinutes: 0
   scoreBack: 900.000 s
+  give:
+    giveFraction: 5.0e-4
+    giveDistance: null
+  earth:
+    sphere:
+      radius: 6371000.0 m
 nominal:
   launch: 0.96
   goal: 0.25
@@ -22,18 +29,26 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind:
       prolog:
       - cylinder:
@@ -76,18 +91,26 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind:
       prolog:
       - cylinder:
@@ -132,18 +155,26 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind:
       prolog:
       - cylinder:
@@ -186,22 +217,32 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind:
       prolog:
       - cylinder:
@@ -251,18 +292,26 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind:
       prolog:
       - cylinder:
@@ -307,18 +356,26 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind:
       prolog:
       - cylinder:
@@ -361,22 +418,32 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind:
       prolog:
       - cylinder:
@@ -426,18 +493,26 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind: null
     openKind:
       prolog: []
@@ -462,10 +537,10 @@ tasks:
           center:
           - -33.35620000 deg
           - 147.93360000 deg
+          radius: 400.0 m
           target:
           - 90.00000000 deg
           - 0.00000000 deg
-          radius: 400.0 m
   speedSection: null
   zoneTimes:
   - open: 2018-07-13T12:00:00Z
@@ -480,18 +555,26 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 399.8 m
+      alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      give: 400.2 m
+      alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
+      give: 400.2 m
+      alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
+      give: 400.2 m
+      alt: 230.000 m
     raceKind: null
     openKind:
       prolog: []
