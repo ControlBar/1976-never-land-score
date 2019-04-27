@@ -21,6 +21,9 @@ nominal:
   distance: 70.0 km
   free: 7.0 km
   time: 1.500000 h
+compTweak:
+  arrivalWeightScaling: null
+  leadingWeightScaling: null
 tasks:
 - taskName: Circle ESS is Goal
   zones:
@@ -82,8 +85,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Line ESS is not Goal
   zones:
     raw:
@@ -146,8 +152,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Line ESS is Goal
   zones:
     raw:
@@ -208,8 +217,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Line ESS with Epilogue (Race 1 Gate)
   zones:
     raw:
@@ -283,8 +295,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Line ESS with Epilogue (Race 2 Gates)
   zones:
     raw:
@@ -359,8 +374,11 @@ tasks:
   startGates:
   - 2018-07-13T12:00:00Z
   - 2018-07-13T12:20:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Line ESS with Epilogue (Elapsed)
   zones:
     raw:
@@ -433,8 +451,11 @@ tasks:
   - open: 2018-07-13T12:00:00Z
     close: 2018-07-13T20:00:00Z
   startGates: []
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Circle ESS is not Goal
   zones:
     raw:
@@ -497,8 +518,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Circle ESS is Goal
   zones:
     raw:
@@ -559,8 +583,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Circle ESS with Epilogue
   zones:
     raw:
@@ -634,8 +661,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Open Distance on Heading
   zones:
     raw:
@@ -689,15 +719,18 @@ tasks:
           - 147.93360000 deg
           radius: 400.0 m
           target:
-          - 90.00000000 deg
+          - 0.00000000 deg
           - 0.00000000 deg
   speedSection: null
   zoneTimes:
   - open: 2018-07-13T12:00:00Z
     close: 2018-07-13T20:00:00Z
   startGates: []
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: Open Distance
   zones:
     raw:
@@ -755,8 +788,11 @@ tasks:
   - open: 2018-07-13T12:00:00Z
     close: 2018-07-13T20:00:00Z
   startGates: []
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 taskFolders:
 - - ''
 - - ''
@@ -770,3 +806,4 @@ taskFolders:
 - - ''
 - - ''
 pilots: []
+pilotGroups: []
