@@ -10,7 +10,7 @@ comp:
     timeZoneMinutes: 0
   scoreBack: 900.000 s
   give:
-    giveFraction: 5.0e-4
+    giveFraction: 5.0e-3
     giveDistance: null
   earth:
     sphere:
@@ -19,7 +19,7 @@ nominal:
   launch: 0.96
   goal: 0.25
   distance: 70.0 km
-  free: 7.0 km
+  free: 7.000 km
   time: 1.500000 h
 compTweak:
   arrivalWeightScaling: null
@@ -32,25 +32,29 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -89,6 +93,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Line ESS is not Goal
   zones:
@@ -97,25 +104,29 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -156,6 +167,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Line ESS is Goal
   zones:
@@ -164,25 +178,29 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -221,6 +239,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Line ESS with Epilogue (Race 1 Gate)
   zones:
@@ -229,31 +250,36 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -299,6 +325,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Line ESS with Epilogue (Race 2 Gates)
   zones:
@@ -307,31 +336,36 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -378,6 +412,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Line ESS with Epilogue (Elapsed)
   zones:
@@ -386,31 +423,36 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -455,6 +497,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Circle ESS is not Goal
   zones:
@@ -463,25 +508,29 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -522,6 +571,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Circle ESS is Goal
   zones:
@@ -530,25 +582,29 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -587,6 +643,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Circle ESS with Epilogue
   zones:
@@ -595,31 +654,36 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind:
       prolog:
@@ -665,6 +729,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Open Distance on Heading
   zones:
@@ -673,25 +740,29 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind: null
     openKind:
@@ -730,6 +801,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 - taskName: Open Distance
   zones:
@@ -738,25 +812,29 @@ tasks:
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 286.000 m
     - zoneName: TRUND
       lat: -32.9378
       lng: 147.7097
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 257.000 m
     - zoneName: BMI023
       lat: -33.3562
       lng: 147.9336
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
       alt: 230.000 m
     raceKind: null
     openKind:
@@ -792,6 +870,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 300 s
+    earlyPenalty: 2 s
   penals: []
 taskFolders:
 - - ''

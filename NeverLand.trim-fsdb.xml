@@ -1,0 +1,132 @@
+<Fs version="3.4">
+  <FsCompetition id="0" name="Never Land 1976" location="Kössen Austria" from="1976-09-01" to="1976-09-12" utc_offset="0" discipline="hg">
+    <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+    <FsParticipants/>
+    <FsTasks>
+      <FsTask Dirty="1" id="2" name="Circle ESS is Goal" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="3" name="Line ESS is not Goal" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="4" name="Line ESS is Goal" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="4" goal="LINE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="5" name="Line ESS with Epilogue (Race 1 Gate)" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="11" name="Line ESS with Epilogue (Race 2 Gates)" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:20:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="20" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="12" name="Line ESS with Epilogue (Elapsed)" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="6" name="Circle ESS is not Goal" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="7" name="Circle ESS is Goal" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="8" name="Circle ESS with Epilogue" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsStartGate open="2018-07-13T12:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="9" name="Open Distance on Heading" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsHeadingpoint lat="90" lon="0"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+      <FsTask Dirty="1" id="10" name="Open Distance" tracklog_folder="">
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="300" use_arrival_position_points="1" use_leading_points="1" score_back_time="15" double_leading_weight="0"/>
+        <FsTaskDefinition>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BOGAN" lat="-33.12592" lon="147.91043" altitude="286" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="TRUND" lat="-32.9378" lon="147.7097" altitude="257" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+          <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+      </FsTask>
+    </FsTasks>
+  </FsCompetition>
+</Fs>
