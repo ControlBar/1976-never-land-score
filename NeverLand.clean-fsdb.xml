@@ -3,7 +3,7 @@
     <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
     <FsParticipants/>
     <FsTasks>
-      <FsTask Dirty="1" id="2" name="Circle ESS is Goal" tracklog_folder="">
+      <FsTask id="2" name="Circle ESS is Goal" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -13,8 +13,21 @@
           <FsStartGate open="2018-07-13T12:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="77.73" task_distance="102.9" launch_to_ess_distance="102.9" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.169"/>
+          <FsTaskDistToTp tp_no="3" distance="52.717"/>
+          <FsTaskDistToTp tp_no="4" distance="102.900"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94084" lon="147.71201"/>
+          <FsPathVertex lat="-33.35291" lon="147.93184"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="3" name="Line ESS is not Goal" tracklog_folder="">
+      <FsTask id="3" name="Line ESS is not Goal" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -24,8 +37,21 @@
           <FsStartGate open="2018-07-13T12:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="27.547" task_distance="103.3" launch_to_ess_distance="52.716" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.169"/>
+          <FsTaskDistToTp tp_no="3" distance="52.717"/>
+          <FsTaskDistToTp tp_no="4" distance="103.301"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94084" lon="147.71201"/>
+          <FsPathVertex lat="-33.35598" lon="147.93418"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="4" name="Line ESS is Goal" tracklog_folder="">
+      <FsTask id="4" name="Line ESS is Goal" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="4" goal="LINE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -35,8 +61,21 @@
           <FsStartGate open="2018-07-13T12:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="78.131" task_distance="103.3" launch_to_ess_distance="103.3" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.169"/>
+          <FsTaskDistToTp tp_no="3" distance="52.717"/>
+          <FsTaskDistToTp tp_no="4" distance="103.301"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94084" lon="147.71201"/>
+          <FsPathVertex lat="-33.35598" lon="147.93418"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="5" name="Line ESS with Epilogue (Race 1 Gate)" tracklog_folder="">
+      <FsTask id="5" name="Line ESS with Epilogue (Race 1 Gate)" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -47,8 +86,23 @@
           <FsStartGate open="2018-07-13T12:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="27.542" task_distance="105.823" launch_to_ess_distance="52.712" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.170"/>
+          <FsTaskDistToTp tp_no="3" distance="52.713"/>
+          <FsTaskDistToTp tp_no="4" distance="80.253"/>
+          <FsTaskDistToTp tp_no="5" distance="105.824"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94052" lon="147.71251"/>
+          <FsPathVertex lat="-33.12733" lon="147.90648"/>
+          <FsPathVertex lat="-33.35649" lon="147.92953"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="11" name="Line ESS with Epilogue (Race 2 Gates)" tracklog_folder="">
+      <FsTask id="11" name="Line ESS with Epilogue (Race 2 Gates)" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -60,8 +114,23 @@
           <FsStartGate open="2018-07-13T12:20:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="20" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="27.542" task_distance="105.823" launch_to_ess_distance="52.712" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.170"/>
+          <FsTaskDistToTp tp_no="3" distance="52.713"/>
+          <FsTaskDistToTp tp_no="4" distance="80.253"/>
+          <FsTaskDistToTp tp_no="5" distance="105.824"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94052" lon="147.71251"/>
+          <FsPathVertex lat="-33.12733" lon="147.90648"/>
+          <FsPathVertex lat="-33.35649" lon="147.92953"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="12" name="Line ESS with Epilogue (Elapsed)" tracklog_folder="">
+      <FsTask id="12" name="Line ESS with Epilogue (Elapsed)" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -71,8 +140,23 @@
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="27.542" task_distance="105.823" launch_to_ess_distance="52.712" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.170"/>
+          <FsTaskDistToTp tp_no="3" distance="52.713"/>
+          <FsTaskDistToTp tp_no="4" distance="80.253"/>
+          <FsTaskDistToTp tp_no="5" distance="105.824"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94052" lon="147.71251"/>
+          <FsPathVertex lat="-33.12733" lon="147.90648"/>
+          <FsPathVertex lat="-33.35649" lon="147.92953"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="6" name="Circle ESS is not Goal" tracklog_folder="">
+      <FsTask id="6" name="Circle ESS is not Goal" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -82,8 +166,21 @@
           <FsStartGate open="2018-07-13T12:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="27.547" task_distance="102.9" launch_to_ess_distance="52.716" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.169"/>
+          <FsTaskDistToTp tp_no="3" distance="52.717"/>
+          <FsTaskDistToTp tp_no="4" distance="102.900"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94084" lon="147.71201"/>
+          <FsPathVertex lat="-33.35291" lon="147.93184"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="7" name="Circle ESS is Goal" tracklog_folder="">
+      <FsTask id="7" name="Circle ESS is Goal" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -93,8 +190,21 @@
           <FsStartGate open="2018-07-13T12:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="77.73" task_distance="102.9" launch_to_ess_distance="102.9" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.169"/>
+          <FsTaskDistToTp tp_no="3" distance="52.717"/>
+          <FsTaskDistToTp tp_no="4" distance="102.900"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94084" lon="147.71201"/>
+          <FsPathVertex lat="-33.35291" lon="147.93184"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="8" name="Circle ESS with Epilogue" tracklog_folder="">
+      <FsTask id="8" name="Circle ESS with Epilogue" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -105,8 +215,23 @@
           <FsStartGate open="2018-07-13T12:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="27.542" task_distance="105.425" launch_to_ess_distance="52.712" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.170"/>
+          <FsTaskDistToTp tp_no="3" distance="52.713"/>
+          <FsTaskDistToTp tp_no="4" distance="80.256"/>
+          <FsTaskDistToTp tp_no="5" distance="105.425"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94052" lon="147.71251"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="9" name="Open Distance on Heading" tracklog_folder="">
+      <FsTask id="9" name="Open Distance on Heading" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition>
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -116,8 +241,21 @@
           <FsHeadingpoint lat="90" lon="0"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="0" task_distance="0.1" launch_to_ess_distance="0" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.169"/>
+          <FsTaskDistToTp tp_no="3" distance="52.717"/>
+          <FsTaskDistToTp tp_no="4" distance="102.900"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94084" lon="147.71201"/>
+          <FsPathVertex lat="-33.35291" lon="147.93184"/>
+        </FsTaskShortestPath>
       </FsTask>
-      <FsTask Dirty="1" id="10" name="Open Distance" tracklog_folder="">
+      <FsTask id="10" name="Open Distance" tracklog_folder="">
         <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" day_quality_override="0" bonus_gr="5" jump_the_gun_factor="2" jump_the_gun_max="300" normalize_1000_before_day_quality="0" time_points_if_not_in_goal="0.8" use_1000_points_for_max_day_quality="0" use_arrival_position_points="1" use_arrival_time_points="0" use_departure_points="0" use_difficulty_for_distance_points="1" use_distance_points="1" use_distance_squared_for_LC="1" use_leading_points="1" use_semi_circle_control_zone_for_goal_line="0" use_time_points="1" scoring_altitude="gps" leading_time_ballance="0" final_glide_decelerator="none" no_final_glide_decelerator_reason="" min_time_span_for_valid_task="60" score_back_time="15" use_proportional_leading_weight_if_nobody_in_goal="0" double_leading_weight="0"/>
         <FsTaskDefinition>
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -126,6 +264,19 @@
           <FsTurnpoint id="BMI023" lat="-33.3562" lon="147.9336" altitude="230" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" score_back_time="15" cancel_reason="" stop_time="2018-07-13T07:09:00Z"/>
+        <FsTaskScoreParams ss_distance="0" task_distance="0.1" launch_to_ess_distance="0" no_of_pilots_present="0" no_of_pilots_flying="0" no_of_pilots_lo="0" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="0" best_dist="0" best_time="0" worst_time="0" no_of_pilots_in_competition="0" no_of_pilots_landed_before_stop="0" sum_dist_over_min="0" sum_real_dist_over_min="0" sum_flown_distances="0" best_real_dist="0" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" goalratio="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0.0825" distance_weight="0.9" smallest_leading_coefficient="0" available_points_distance="NaN" available_points_time="NaN" available_points_departure="NaN" available_points_leading="NaN" available_points_arrival="NaN" time_validity="0" launch_validity="NaN" distance_validity="NaN" stop_validity="1" day_quality="NaN" ftv_day_validity="NaN" time_points_stop_correction="0">
+          <FsTaskDistToTp tp_no="1" distance="0.000"/>
+          <FsTaskDistToTp tp_no="2" distance="25.169"/>
+          <FsTaskDistToTp tp_no="3" distance="52.717"/>
+          <FsTaskDistToTp tp_no="4" distance="102.900"/>
+          <FsTaskDifficulty chunks="81" start_chunks="0" end_chunks="8.2" look_ahead="30" sum_of_difficulty="0" no_of_pilots_lo="0"/>
+        </FsTaskScoreParams>
+        <FsTaskShortestPath>
+          <FsPathVertex lat="-33.35261" lon="147.93317"/>
+          <FsPathVertex lat="-33.12736" lon="147.9065"/>
+          <FsPathVertex lat="-32.94084" lon="147.71201"/>
+          <FsPathVertex lat="-33.35291" lon="147.93184"/>
+        </FsTaskShortestPath>
       </FsTask>
     </FsTasks>
   </FsCompetition>
