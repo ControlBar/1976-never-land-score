@@ -4,6 +4,7 @@ COMP="--file=NeverLand"
 
 fs-filter "$COMP"
 fs-route "$COMP"
+fs-arrival "$COMP"
 fs-effort "$COMP"
 fs-score "$COMP"
 
