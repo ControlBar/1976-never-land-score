@@ -22,7 +22,9 @@ nominal:
   free: 7.000 km
   time: 1.500000 h
 compTweak:
-  arrivalWeightScaling: null
+  arrivalRank: true
+  arrivalTime: false
+  leadingAreaDistanceSquared: true
   leadingWeightScaling: null
 tasks:
 - taskName: Circle ESS is Goal
@@ -91,11 +93,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Line ESS is not Goal
   zones:
@@ -165,11 +171,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Line ESS is Goal
   zones:
@@ -237,11 +247,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Line ESS with Epilogue (Race 1 Gate)
   zones:
@@ -323,11 +337,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Line ESS with Epilogue (Race 2 Gates)
   zones:
@@ -410,11 +428,15 @@ tasks:
   - 2018-07-13T12:20:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Line ESS with Epilogue (Elapsed)
   zones:
@@ -495,11 +517,15 @@ tasks:
   startGates: []
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Circle ESS is not Goal
   zones:
@@ -569,11 +595,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Circle ESS is Goal
   zones:
@@ -641,11 +671,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Circle ESS with Epilogue
   zones:
@@ -727,11 +761,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Open Distance on Heading
   zones:
@@ -799,11 +837,15 @@ tasks:
   startGates: []
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: Open Distance
   zones:
@@ -868,11 +910,15 @@ tasks:
   startGates: []
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 300 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 taskFolders:
 - - ''
